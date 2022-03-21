@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Inscripción al congreso</title>
+    </head>
+    <body>
+        <!-- ─── CABECERA ──────────────────────────────────────────────────── -->    
+        <header>
+            <h1>Encuentro Nacional de Estudiantes de Matemáticas</h1><br>
+            <h2>[25, 30] de Julio de 2022</h2>
+        </header>
+        
+        <!-- ─── CUERPO PRINCIPAL ──────────────────────────────────────────── -->    
+        <main>
+
+            <!-- ─── SECCION: PRECIOS ──────────────────────────────────────────── -->
+            <section>
+                <h3>Precio por asistente</h3>
+                <table border="1">
+                    <caption>Precio dependiendo del tipo de asistente y de la antelación</caption>
+                    <thead>
+                    <tr>
+                        <th rowspan="2">Tipo de participante</th>
+                        <th colspan="3">Registro</th>
+                    </tr>           
+                    <tr>             
+                        <th >Temprano</th>
+                        <th >Tardío</th>
+                        <th >Durante congreso</th>
+                    </tr>         
+                    </thead>         
+                    <tbody>           
+                    <tr>             
+                        <td >Estudiantes</td>
+                        <td >10€</td>
+                        <td >15€</td>
+                        <td >20€</td>
+                    </tr>           
+                    <tr>             
+                        <td >Profesionales</td>
+                        <td >12€</td>
+                        <td >16€</td>
+                        <td >25€</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <!-- ─── SECCIÓN: FORMULARIO DE REGISTRO ───────────────────────────── -->
+            <section>
+                <h3>Formulario de registro</h3>
+                <p>Si deseas asistir, rellena con tus datos personales el siguiente formulario:</p>
+                <form method="post" autocomplete="off">
+                    <fieldset>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"><br>
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos"><br>
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email" placeholder="alguien@example.es"><br>
+                        <label for="numero_asistentes">Número de asistentes:</label>
+                        <input type="number" id="numero_asistentes" name="numero_asistentes" min="1" max="10"><br>
+                    </fieldset>
+                    <fieldset>
+                        <p>¿Es tu primera asistencia al ENEM?</p>
+                        <input type="radio" id="asistencia_si" name="asistencia" value="si">
+                        <label for="asistencia_si">Sí</label>
+                        <input type="radio" id="asistencia_no" name="asistencia" value="no" checked>
+                        <label for="asistencia_no">No</label><br>
+                        
+                        
+                        <datalist id="lista_razones">
+                            <option value="Me lo recomendó alguien">
+                            <option value="Estoy en la ANEM">
+                            <option value="Me llegó un correo de la universidad">
+                            <option value="Ninguna de las anteriores">
+                        </datalist>
+                        <label for="razon">¿Cómo conociste el ENEM?</label>
+                        <input type="text" id="razon" list="lista_razones"><br>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" id="submit" value="Registrar"/>
+                        <input type="reset" id="reset" value="Reset" />
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        
+        <!-- ─── SECCIÓN LATERAL ───────────────────────────────────────────── -->    
+        <aside>
+            Contacto vía e-mail: <a href="mailto:enem2022@anem.es">enem2022@anem.es</a>
+        </aside>
+
+        <!-- ─── PIE DE PÁGINA ─────────────────────────────────────────────── -->
+        <footer>
+			&copy XXIII ENEM 2022 - Valencia 2022			
+        </footer>
+        
+    </body>
+</html>

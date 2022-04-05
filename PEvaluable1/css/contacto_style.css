@@ -1,0 +1,46 @@
+/* ¿QUÉ HAGO CON ESTO?
+.polaroid {
+    position: relative;
+    width: 20%;
+}
+   
+  .polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+       -moz-box-shadow: 3px 3px 3px #777;
+            box-shadow: 3px 3px 3px #777;
+    width: 100%;
+  }
+   
+  .polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    font: 400 18px/1 'Kaushan Script', cursive;
+    color: #888;
+  }
+
+  main {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section {
+    padding-left: 10%;
+    font-size: large;
+  }
+
+  a {
+      text-decoration: underline;
+      color: rgb(211, 91, 91);
+  }
+*/

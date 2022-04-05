@@ -1,0 +1,43 @@
+header {
+    width: 96%;
+    font-size: xx-large;
+    text-align: center;
+    border-style: solid;
+    border-color: coral;
+    margin: 1%;
+    padding: 1%;
+}
+
+section{
+    float: left;
+    width: 26.5%;
+    padding: 2%;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 2px;
+    margin: 1%;
+}
+
+footer {
+    float: left;
+    width: 96%;
+    text-align: center;
+    border-style: solid;
+    border-color: coral;
+    margin: 1%;
+    padding: 1%;
+}
+
+@media(max-width: 480px){
+    body {
+        /*clear: both;*/
+        /*width: 100%;*/
+        background-color: darkblue;
+        
+    }
+
+    section {
+        width: 94%;
+        float: none;
+    }
+}

@@ -1,0 +1,14 @@
+
+
+body {
+    background-image: url('curva-Koch-1.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+
+ul {
+    list-style-type: lower-alpha;
+}

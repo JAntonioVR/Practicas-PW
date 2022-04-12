@@ -70,3 +70,24 @@ main {
 	width: 100%;
 	left: 0;
 }
+
+.comentarios {
+    background-color: var(--color-3);
+    margin: 5%;
+    width: 90%;
+
+}
+
+.comentario {
+    padding: 1em;
+    background-color: var(--color-2);
+    width: 25%;
+    font-weight: bold;
+    float: left;
+    margin: 2.5%;
+}
+
+.comentario .texto {
+    font-weight: normal;
+    background-color: inherit;
+}

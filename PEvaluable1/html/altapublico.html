@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/index_style.css">
+        <link rel="stylesheet" href="../css/forms_style.css">
+        <meta name="application-name" content="Web del Centro de Exposiciones">
+        <meta name="author" content="Juan Antonio Villegas Recio">
+        <meta name="description" content="Página de inicio de la web">
+    </head>
+    <body>
+        <header class="cabecera">
+            <a href="index.html">
+            <img class="logo" src="../img/logo.png">
+            </a>
+            <h1 class="title">EXPOSE IT!</h1>
+            <form method="post" autocomplete="off">
+            <b>Inicia Sesión</b><br>
+            <label for="user">Usuario</label><br>
+            <input type="text" id="user" name="user"><br>
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input class="my-button" type="submit" value="Iniciar Sesión">
+            </form>
+            <div></div>
+            <h2 class="subtitle">C/Lorem Ipsum S/N</h2>
+            <ul class="registro">
+            <li><a href="altapublico.html" class="my-button">Registro Usuarios</a></li>
+            <li><a href="altacomisario.html" class="my-button">Registro Comisarios</a></li>
+            </ul>
+        </header>
+        <nav>
+            <ul id="lista_categorias">
+                <li><a href="fotografia.html">Fotografía</a></li>
+                <li><a href="pintura.html">Pintura</a></li>
+                <li><a href="cine.html">Cine</a></li>
+                <li><a href="escultura.html">Escultura</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Registro de nuevos usuarios</h2>
+            <p>Rellene el siguiente formulario para darse de alta como nuevo usuario</p>
+            <form method="post" class="registro-nuevos-usuarios" action="registro_completado.html">
+                <fieldset>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" id="nombre"><br>
+                    <label for="apellidos">Apellidos</label><br>
+                    <input type="text" id="apellidos"><br>
+                    <label for="fecha-nacimiento">Fecha de nacimiento</label><br>
+                    <input type="date" id="fecha-nacimiento"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="alguien@example.es" id="email"><br>
+                </fieldset>
+                <fieldset>
+                    <label for="nickname">Introduce un nombre de usuario</label><br>
+                    <input type="text" id="nickname"><br>
+                    <label for="password">Introduce una Contraseña</label><br>
+                    <input type="password" id="password"><br>
+                    <label for="password">Repite la Contraseña</label><br>
+                    <input type="password" id="password"><br>
+                </fieldset>
+                <fieldset>
+                    ¿Conocías previamente "Expose It!"?<br>
+                    <input type="radio" id="conocer_si" name="conocer" value="si">
+                    <label for="conocer_si">Sí</label><br>
+                    <input type="radio" id="conocer_no" name="conocer" value="no" checked>
+                    <label for="conocer_no">No</label><br>
+                    <datalist id="lista_razones">
+                        <option value="Me lo recomendó alguien">
+                        <option value="Conozco a alguien suscrito">
+                        <option value="Encontré publicidad">
+                        <option value="Ninguna de las anteriores (especificar abajo)">
+                    </datalist>
+                    <label for="razon">En caso de contestar que sí, ¿cómo conociste "Expose It!"</label><br>
+                    <input type="text" id="razon" list="lista_razones"><br>
+                    <textarea id="razon-redactada rows="5"></textarea><br>
+                </fieldset>
+                <input type = "checkbox" id = "terminos-condiciones" value = "terminos-condiciones"/>
+                <label for = "terminos-condiciones">He leído los términos y condiciones </label><br>
+                <input type = "checkbox" id = "enviar-info" value = "enviar-info" />
+                <label for = "enviar-info">Deseo que se me envíe publicidad y promociones por e-mail.</label><br>
+                <input class="my-button" type="submit">
+            </form>
+        </main>
+        <footer>
+            <a href="./contacto.html">&copy Juan Antonio Villegas Recio</a>
+            <a href="como_se_hizo.pdf">Cómo se hizo</a>
+        </footer>
+    </body>
+</html>

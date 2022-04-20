@@ -98,7 +98,10 @@
 
 .noticias { grid-area: noticias; }
 
-.exposiciones { grid-area: exposiciones; }
+.exposiciones { 
+	grid-area: exposiciones; 
+	width: 100%;
+}
 
 nav {
 	text-align: center;
@@ -124,6 +127,12 @@ nav {
 
 #lista_categorias li:hover {
 	background-color: var(--color-3);
+}
+
+.categoria {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #noticias .title {

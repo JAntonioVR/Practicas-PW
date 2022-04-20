@@ -12,3 +12,10 @@ input {
 fieldset {
     margin: 0.5em;
 }
+
+.exito {
+    background-color: var(--color-2);
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+}

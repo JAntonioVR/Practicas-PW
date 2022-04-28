@@ -1,0 +1,36 @@
+/*
+ * ──────────────────────────────────────────────────────────────────────────────────────────────────────────────── I ──────────
+ *   :::::: H O J A   D E   E S T I L O S   P A R A   L O S   F O R M U L A R I O S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ * Esta hoja de estilos contiene código para darle una apariencia amigable a los formularios de alta al público y comisarios.
+ */
+
+
+
+.registro-nuevos-usuarios {
+    background-color: var(--color-2);
+    margin: 2em;
+    padding: 2em;
+    font-size: 1.2em;
+}
+
+input{
+    font-size: 1.1em;
+}
+
+textarea {
+    width: 100%;
+}
+
+fieldset {
+    margin: 0.5em;
+}
+
+.exito {
+    background-color: var(--color-2);
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
